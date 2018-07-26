@@ -5,7 +5,7 @@ $(function () {
     let contact = []
 
 
-    
+
 
 
     const addressDOM = (event) => {
@@ -29,14 +29,14 @@ $(function () {
 
         const divChild = document.createElement('div')
         divChild.innerHTML = `${newAddress.firstName}`
-        $('#result-field').append(`<div>First Name : ${newAddress.firstName}<br>
-        Last Name : ${newAddress.lastName}<br>
-        Phone : ${newAddress.phone}<br>
-        Email : ${newAddress.email}<br>
-        City : ${newAddress.city}<br>
+        $('#result-field').append(`<div><h5>First Name : ${newAddress.firstName}</h5><br>
+        <h5>Last Name : ${newAddress.lastName}</h5><br>
+        <h5>Phone : ${newAddress.phone}</h5><br>
+        <h5>Email : ${newAddress.email}</h5><br>
+        <h5>City : ${newAddress.city}</h5><br>
         </div>
         `)
-        
+
 
 
 
@@ -54,7 +54,7 @@ $(function () {
         Email : ${newAddress.email}
         City : ${newAddress.city}`)
 
-        
+
 
     }
 
